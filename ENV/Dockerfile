@@ -1,5 +1,5 @@
-FROM almalinux:9
-ENV COURSE="DevOps" \
-    TRAINER="Sivakumar" \
-    DURATION="120HRS"
+FROM nginx:latest
+ENV COURSE="Python" \
+    TRAINER="SIVA"
+    DURATION="10hrs"
 CMD ["sleep", "1000"]
